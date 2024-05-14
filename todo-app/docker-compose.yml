@@ -39,7 +39,7 @@ services:
       MONGO_INITDB_DATABASE: the_database
     volumes: 
       - ./todo-backend/mongo/mongo-init.js:/docker-entrypoint-initdb.d/mongo-init.js
-      - ./todo-backed/mongo_data:/data/db
+      - ./todo-backend/mongo_data:/data/db
     container_name: mongo
 
   redis:
