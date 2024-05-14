@@ -1,0 +1,18 @@
+POST http://localhost:3001/api/blogs
+Content-Type: application/json
+
+{
+  "title": "worst blog ever",
+  "author": "Steve Harper",
+  "url": "http://www.worstblog.com",
+  "likes": 1
+}
+
+###
+POST http://localhost:3001/api/login
+Content-Type: application/json
+
+{
+  "username": "danny123",
+  "password": "12345"
+}
